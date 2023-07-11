@@ -1,6 +1,7 @@
 # PDFreader
 This application extracts arabic text from scanned pdf files. 
-Technologies :
+
+## Technologies :
 - Java 17
 - PDFbox
 
