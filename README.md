@@ -2,14 +2,14 @@
 This application extracts arabic text from scanned pdf files. 
 Technologies :
 - Java 17
-- Tesseract OCR
+- PDFbox
 
-  Using for reading data from an image.
+    Using for decomposing a pdf file into images.
   
         <dependency>
-            <groupId>org.bytedeco</groupId>
-            <artifactId>tesseract-platform</artifactId>
-            <version>5.3.1-1.5.9</version>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.28</version>
         </dependency>
 
 - OpenCV
@@ -22,13 +22,12 @@ Technologies :
             <version>4.7.0-0</version>
         </dependency>
 
-- PDFbox
+- Tesseract OCR
 
-    Using for decomposing a pdf file into images.
+  Using for reading data from an image.
   
         <dependency>
-            <groupId>org.apache.pdfbox</groupId>
-            <artifactId>pdfbox</artifactId>
-            <version>2.0.28</version>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>tesseract-platform</artifactId>
+            <version>5.3.1-1.5.9</version>
         </dependency>
-      
